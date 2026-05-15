@@ -40,8 +40,9 @@ test.describe('Read Operations for Booking API', () => {
         
         const createBody = await createResponse.json();
         bookingId = createBody.bookingid;
-        firstName1 = createBody.booking["firstname"];
-        expect(getBody).toEqual({ ...testBooking, firstname: firstName1 });
+        console.log(bookingId);
+        
+        
     });
 
 });

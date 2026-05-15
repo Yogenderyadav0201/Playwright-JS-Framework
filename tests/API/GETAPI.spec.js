@@ -32,6 +32,7 @@ test.describe('Read Operations for Booking API', () => {
         // Verify at least one booking exists
         expect(responseBody.length).toBeGreaterThan(0);
     });
+    
 
     test('Get specific booking by ID', async () => {
         // First create a booking to get an ID
